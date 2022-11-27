@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
+This is a personal blog that I am maintaining to document some of the projects I have been or am currently working on.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
