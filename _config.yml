@@ -1,6 +1,6 @@
 title: "The Whitman's Sampler"
 author: "Adam Dimeski"
-description: "A whitman's sampler of projects I am working on to do with engineering and tech." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "A blog of projects I am working on to do with engineering and tech." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -23,7 +23,7 @@ theme: "minima"
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
