@@ -11444,11 +11444,51 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.3d-printing-grid-container {
+  float: left;
+  width: 100%;
+}
+.3d-printing-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+.3d-image-container {
+  width: 50%;
+}
+.live-feed-container {
+  width: 50%;
+}
+
+#live-feed {
+  width: calc(20% - (0.25rem * 2));
+  margin: 0.25rem;
+  border: solid white 2px;
+  border-radius: 20px;
+}
+
+.image {
+  width: calc(45% - (0.25rem * 2));
+  margin: 0.25rem;
+  border-radius: 20px;
+  border: solid white 2px;
+}
+.image:hover {
+transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.3d-image-blurb {
+  width: 90%;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
+
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     margin-bottom: 5rem;
@@ -11462,4 +11502,47 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+  .parent3d {
+    float: left;
+  }
+
+  .child3d {
+    float: left;
+    width: 50%;
+  }
+  .live_feed {
+  /**
+    margin-left: 55%;
+    width: 50%;
+    **/
+  }
+
+  .container3d {
+    text-align: center
+  }
+
+
+  .live_feed {
+    width: calc(90% - (0.25rem * 2));
+    margin: 0.25rem;
+    border: solid white 2px;
+    border-radius: 20px;
+  }
+
+  .image {
+    width: calc(45% - (0.25rem * 2));
+    margin: 0.25rem;
+    border-radius: 20px;
+    border: solid white 2px;
+  }
+  .image:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1000;
+}
+
+.3d-image-blurb {
+  width: 45%;
+  text-align: center;
+}
 }
