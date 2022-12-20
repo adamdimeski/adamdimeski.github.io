@@ -11444,27 +11444,16 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-.3d-printing-grid-container {
-  float: left;
-  width: 100%;
-}
-.3d-printing-image-container {
-  display: flex;
-  flex-wrap: wrap;
-  float: left;
-}
-.3d-image-container {
-  width: 50%;
-}
 .live-feed-container {
   width: 50%;
 }
 
-#live-feed {
-  width: calc(20% - (0.25rem * 2));
+.live_feed {
+  width: calc(90% - (0.25rem * 2));
   margin: 0.25rem;
   border: solid white 2px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .image {
@@ -11477,10 +11466,6 @@ section.resume-section .resume-section-content {
 transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.3d-image-blurb {
-  width: 90%;
-  text-align: center;
-}
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -11522,13 +11507,6 @@ transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will 
     text-align: center
   }
 
-
-  .live_feed {
-    width: calc(90% - (0.25rem * 2));
-    margin: 0.25rem;
-    border: solid white 2px;
-    border-radius: 20px;
-  }
 
   .image {
     width: calc(45% - (0.25rem * 2));
