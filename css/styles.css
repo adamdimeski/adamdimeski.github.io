@@ -11465,16 +11465,29 @@ section.resume-section .resume-section-content {
 .image:hover {
 transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+#mobilephoto{
+  text-align: center;
+  width: 50%;
+  left: 50%;
+}
 
 
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
+  #mobilephoto {
+    display: none;
+  }
 
 }
 
 @media (min-width: 992px) {
+
+  #mobilephoto {
+    display: none;
+  }
+
   section.resume-section {
     margin-bottom: 5rem;
     margin-left: 2rem;
