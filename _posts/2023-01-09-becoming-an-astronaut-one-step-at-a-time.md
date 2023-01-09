@@ -1,5 +1,6 @@
 ## How to become an Astronaut: One step at a time
 
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/64/Astronaut-1849401.jpg">
 <p align="center" width="100%">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Astronaut-1849401.jpg" style="height:150px text-align: center;" />
 </p>
