@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img src="/images/coverdrillhole.png" style="height:400px" />
+  <img src="/images/coverdrillhole.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Designed by Freepik</em>
@@ -26,7 +26,7 @@ The focus of this thesis was on assessing if NLP could be able to automatically 
 Drillhole results are sentences that show the mineral composition of the ground when doing mineral exploration. These results are typically found in mining company reports such as annual reports and press releases, and publicly listed companies are required to report this data to the public. Here is an example of a report from a mining company; in the middle, there a list of drillhole sentences e.g. ***15 meters @ 2.35% Li2O and 100ppm Ta2O5 from 142m (PLS1315)***. This is a drillhole sentence, and this is what we want to extract from the report.
 
 <p align="center" width="100%">
-  <img src="/images/drillholeresults.png" style="height:400px" />
+  <img src="/images/drillholeresults.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Example drillhole result from Pilbarra Mineral ASX Announcement</em>
@@ -37,7 +37,7 @@ Drillhole results are sentences that show the mineral composition of the ground 
 Drillhole results are helpful for investors, industry professionals, and mining companies assess the performance of a mineral exploration project. Mining minerals is ever more important with the move to renewable energy technologies such as electric cars. A world bank report estimates that mining key minerals must increase by 400% to meet the target of reducing global warming by 2050, particularly in countries with existing mineral mining like Australia. Access to up-to-date mineral exploration results is vital for growth in the exploration industry.
 
 <p align="center" width="100%">
-  <img src="/images/worldbank.png" style="height:400px" />
+  <img src="/images/worldbank.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>World Bank report for key minerals insert citation</em>
@@ -46,7 +46,7 @@ Drillhole results are helpful for investors, industry professionals, and mining 
 With many states in Australia not mandating reporting of exploration results, efforts by government and private industry to develop an up to date drillhole result databases have all required the data to be manually extracted from the reports. However, the vast majority of these mining companies do promptly provide the results in reports to the public in the form of press releases and annual reports.
 
 <p align="center" width="100%">
-  <img src="/images/drillholesites.png" style="height:400px" />
+  <img src="/images/drillholesites.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Map of drillhole sites in Western Australia</em>
@@ -65,7 +65,7 @@ In my thesis, I assessed whether these drillhole results can be automatically ex
 Here is an example of just some of the various drillhole sentence formats in a single report. Significant differences also occurred between different companies. Drillhole sentences also are very similar to other geological sentences. The primary identifier of a drillhole sentence is the Hole ID code, which was implemented to identify drillhole sentences from different sentence types.
 
 <p align="center" width="100%">
-  <img src="/images/sentencestructure.png" style="height:400px" />
+  <img src="/images/sentencestructure.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Example of the various drillhole sentence structures</em>
@@ -82,7 +82,7 @@ For the Annotation, the IOB tagging format was used to tag each part of the dril
 
 
 <p align="center" width="100%">
-  <img src="/images/corpus.png" style="height:400px" />
+  <img src="/images/corpus.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Corpus Statistics</em>
@@ -93,7 +93,7 @@ For the Annotation, the IOB tagging format was used to tag each part of the dril
 Two neural network models were assessed as benchmarks: a bi-directional LSTM model with CRF layer and BERT. These models were chosen as they are suited for sequence labelling on structured sentences. Both models performed well, with the best average F<sub>1</sub> score by BERT at 87%, and the LSTM model achieved 78%. In addition, the scores were consistent across all three datasets: random, material and company datasets. This was a surprising as this shows that the models can generalise for unseen materials and companies. However, overall, BERT was substantially better, where the scores were consistent across all tags and datasets and demonstrated robustness against variations in sentence structure.
 
 <p align="center" width="100%">
-  <img src="/images/results.png" style="height:400px" />
+  <img src="/images/results.png" style="height:400px; width: 400px;" />
 </p>
 <p align = "center">
   <em>Benchmark F<sub>1</sub> Results</em>
