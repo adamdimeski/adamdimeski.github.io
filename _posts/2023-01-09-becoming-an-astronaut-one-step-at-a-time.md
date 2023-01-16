@@ -35,7 +35,7 @@ The satellite badge requires walking 35,000 floors which given our calculated ra
 
 Pretty cool that Fitbit did their research for their badges!
 <p align="center" width="100%">
-  <img src="/images/slats.jpg" style="height:400px;" />
+  <img src="/images/slats.jpg" style="height:400; width: 710;" />
 </p>
 <p align = "center">
   <em>Illustration of JAXA's Super Low Altitude Test Satellite</em>
