@@ -11471,6 +11471,13 @@ transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will 
   left: 50%;
 }
 
+.image-gif {
+  width: calc(45% - (0.25rem * 2));
+  margin: 0.25rem;
+  border-radius: 20px;
+  border: solid white 2px;
+}
+
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -11509,6 +11516,7 @@ transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will 
     float: left;
     width: 50%;
   }
+
   .live_feed {
   /**
     margin-left: 55%;
