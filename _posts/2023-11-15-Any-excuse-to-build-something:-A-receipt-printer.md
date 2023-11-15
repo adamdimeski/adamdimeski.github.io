@@ -68,7 +68,7 @@ This was a fun little project that didn't take much time to do. I made some othe
 
 #### App.js: Github Webhook
 
-``` code block
+```javascript
 const { exec } = require("child_process");
 var express = require('express');
 var app = express();
@@ -127,7 +127,7 @@ app.listen(port, function () {
 
 #### App.py: Python Telegram Bot
 
-```
+```python
 from telegram import Update
 import logging
 import os
