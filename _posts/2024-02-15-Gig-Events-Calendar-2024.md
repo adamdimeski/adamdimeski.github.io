@@ -1,6 +1,6 @@
 # Gig Events Calendar 2024
 
-I have posted a public calendar of all the gigs i'd be interested in seeing this year.
+I have posted a public calendar of all the gigs I'd be interested in seeing this year.
 
 [Public link to calendar](https://calendar.google.com/calendar/embed?src=dimeskiad%40gmail.com&ctz=Australia%2FBrisbane)
 
